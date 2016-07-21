@@ -1,0 +1,2 @@
+public_key = 'XXXXX_PASTE_PUB_KEY_XXXXX'
+private_key = 'XXXXX_PASTE_PRIV_KEY_XXXXX'

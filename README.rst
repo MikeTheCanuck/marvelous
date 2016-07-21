@@ -17,6 +17,10 @@ Examples
 This is a script which can be run at the beginning on the week to generate a
 complete Marvel pull list, excluding any series the user doesn't want.
 
+This script is included as example.py, and it's accompanied by a config.py file where 
+you will paste in your Marvel API public and private keys between the single quote 
+characters (dummy strings included to reduce guesswork).
+
 .. code-block:: python
 
     import os

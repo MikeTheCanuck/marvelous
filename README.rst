@@ -18,8 +18,13 @@ This is a script which can be run at the beginning on the week to generate a
 complete Marvel pull list, excluding any series the user doesn't want.
 
 This script is included as example.py, and it's accompanied by a config.py file where 
-you will paste in your Marvel API public and private keys between the single quote 
-characters (dummy strings included to reduce guesswork).
+you must paste in your Marvel API public and private keys between the single quote 
+characters (dummy strings included to reduce guesswork).  I also extended the script to 
+demonstrate handling of the series included in IGNORE.
+
+Note: If you don't remember to substitute valid API keys, then you'll see this error 
+at runtime: 
+marvelous.exceptions.ApiError: The passed API key is invalid.
 
 .. code-block:: python
 

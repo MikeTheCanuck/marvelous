@@ -24,7 +24,7 @@ pulls = sorted(m.comics({
     key=lambda comic: comic.title)
 
 # Grab the sale date of any of the comics for the folder name
-directory = pulls[0].dates.on_sale.strftime('%m-%d')
+directory = pulls[0].dates.on_sale.strftime('%Y-%m-%d')
 
 # If there's no folder by that name, create one
 if not os.path.exists(directory):
